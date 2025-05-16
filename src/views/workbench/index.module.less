@@ -1,0 +1,65 @@
+.workbench {
+  background-color: var(--dark-bg-color);
+  padding: 20px;
+}
+
+.userinfo {
+  display: flex;
+  align-items: center;
+  :global(img) {
+    margin-right: 25px;
+  }
+}
+
+.report {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card {
+  flex: 1;
+  height: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--dark-color);
+  background-color: var(--dark-bg-color);
+  &:nth-child(1) {
+    background-color: #f4864f;
+  }
+  &:nth-child(2) {
+    background-color: #887edc;
+  }
+  &:nth-child(3) {
+    background-color: #4f95e5;
+  }
+  &:nth-child(4) {
+    background-color: #6dc3d7;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.data {
+  text-align: center;
+  font-size: 24px;
+}
+
+.chart {
+  margin-top: 50px;
+}
+
+.pieChart {
+  display: flex;
+}
+
+.itemPie {
+  flex: 1;
+  height: 400px;
+}
+
+.itemChart {
+  height: 400px;
+}

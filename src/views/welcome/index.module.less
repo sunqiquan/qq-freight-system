@@ -1,0 +1,37 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-bg-color);
+  color: var(--dark-color);
+  border-radius: 5px;
+  height: calc(100vh - 130px);
+}
+
+.content {
+  position: relative;
+  bottom: 40px;
+  .subTitle {
+    font-size: 30px;
+    line-height: 42px;
+    color: var(--dark-color);
+  }
+  .title {
+    font-size: 40px;
+    line-height: 62px;
+    color: #ed6c00;
+  }
+  .desc {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+  }
+}
+
+.img {
+  background: url(/imgs/welcome-bg.jpg) no-repeat;
+  background-size: cover;
+  width: 480px;
+  height: 320px;
+  margin-left: 30px;
+}
